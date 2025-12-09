@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# WandB logs
+wandb_logs/
+wandb/
+
+# Large data files (too large for GitHub - max 100MB)
+data/*.pt
+data/*.csv
+data/CID-SMILES
