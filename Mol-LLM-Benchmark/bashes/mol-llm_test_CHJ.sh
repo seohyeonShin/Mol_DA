@@ -1,7 +1,7 @@
 export TOKENIZERS_PARALLELISM=false;
 gpus="'0,1,2,3'" # 이게 실제 GPU 갯수 책임지는 곳,
 # data_tag=3.3M_0415
-direct_data_root="/workspace/Origin/Mol_llm_Origin/data/mol-llm_testset"
+direct_data_root="/workspace/DATA/GSAI-ML-LLaDA-8B-Instruct_string+graph_q32_test_3.3M_0415_verified_filtered_512_indexed"
 filename="HJChoi" # Replace with your actual filename
 ckpt_path="/workspace/Origin/Mol_llm_Origin/checkpoint/mol-llm.ckpt" # Replace with your actual checkpoint path'"
 

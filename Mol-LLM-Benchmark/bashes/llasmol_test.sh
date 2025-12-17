@@ -7,7 +7,7 @@ export TOKENIZERS_PARALLELISM=false
 gpus="'0,1,2,3'"
 
 # 데이터 설정
-direct_data_root="/workspace/Origin/Mol_llm_Origin/data/mol-llm_testset"
+direct_data_root="/workspace/DATA/GSAI-ML-LLaDA-8B-Instruct_string+graph_q32_test_3.3M_0415_verified_filtered_512_indexed"
 
 # 결과 파일명
 filename="llasmol_test"
